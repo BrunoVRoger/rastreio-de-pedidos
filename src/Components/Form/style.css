@@ -1,0 +1,119 @@
+div .search_bar { 
+    display: flex;
+    width: 230px;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+
+div .search_bar input{
+    height: 40px;
+    font-size: 18px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1179A0;
+    border-radius: 15px 0 0 15px;
+}
+
+div .search_bar button {
+    width: 50px;
+    height: 40px;
+
+    border: 1px solid #1179A0;
+    background-color: #1179A0;
+    color: white;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+div .search_bar button:hover {
+    background-color: rgb(19, 150, 226);
+}
+
+div .search_bar input {
+    text-transform: uppercase;
+}
+
+::placeholder {
+    text-transform: lowercase;
+}
+
+div .show {
+    color: red;
+    font-weight: bold;
+
+    margin: 0 auto;
+}
+
+div .dontshow {
+    overflow: hidden;
+    display: none;
+}
+
+
+div .show_info {
+    margin: 0 auto;
+}
+
+div .dontshow_info {
+    overflow: hidden;
+    display: none;
+}
+
+/* table {
+    
+   
+    border-style:hidden;
+    margin: 5px;
+ 
+    overflow:scroll;
+    
+
+    
+  
+    
+ }
+
+table th {
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+
+  }
+  table .info td{
+
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    
+  }
+
+  
+ */
+
+
+ .table { 
+     overflow-y: auto; 
+     height: 100px; }
+     
+ .table th { 
+     position: sticky; 
+     top: 0; 
+    }
+ 
+ table  { 
+     border-collapse: collapse; 
+     width: 100%; 
+    }
+
+ th,td {  
+     padding: 2px 2px 2px 2px;   
+    }
+
+ th { 
+     background: rgb(19, 150, 226); 
+    }
+ 
+  
